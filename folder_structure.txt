@@ -11,6 +11,11 @@
 │   │   │   ├── app.module.ts
 │   │   │   ├── app.service.js
 │   │   │   ├── app.service.ts
+│   │   │   ├── common
+│   │   │   │   ├── decorators
+│   │   │   │   └── filters
+│   │   │   │       ├── all-exceptions.filter.js
+│   │   │   │       └── all-exceptions.filter.ts
 │   │   │   ├── main.js
 │   │   │   └── main.ts
 │   │   ├── test
@@ -44,9 +49,7 @@
 │   ├── database
 │   │   ├── package.json
 │   │   ├── prisma
-│   │   │   ├── migrations
-│   │   │   ├── schema.prisma
-│   │   │   └── seed.ts
+│   │   │   └── schema.prisma
 │   │   ├── src
 │   │   │   ├── client.ts
 │   │   │   └── index.ts
