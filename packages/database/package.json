@@ -1,0 +1,22 @@
+{
+  "name": "@repo/database",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "db:generate": "dotenv -e ../../.env -- prisma generate",
+    "db:migrate:dev": "dotenv -e ../../.env -- prisma migrate dev --name init",
+    "db:studio": "dotenv -e ../../.env -- prisma studio",
+    "db:seed": "dotenv -e ../../.env -- ts-node prisma/seed.ts"
+  },
+  "devDependencies": {
+    "prisma": "latest",
+    "@prisma/client": "latest",
+    "@repo/tsconfig": "workspace:*",
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "@prisma/client": "latest"
+  }
+}

@@ -1,0 +1,77 @@
+.
+├── apps
+│   ├── api
+│   │   ├── folder_structure.txt
+│   │   ├── nest-cli.json
+│   │   ├── package.json
+│   │   ├── src
+│   │   │   ├── app.controller.js
+│   │   │   ├── app.controller.ts
+│   │   │   ├── app.module.js
+│   │   │   ├── app.module.ts
+│   │   │   ├── app.service.js
+│   │   │   ├── app.service.ts
+│   │   │   ├── main.js
+│   │   │   └── main.ts
+│   │   ├── test
+│   │   ├── tsconfig.build.json
+│   │   └── tsconfig.json
+│   └── web
+│       ├── package.json
+│       ├── src
+│       │   ├── app.d.ts
+│       │   ├── app.html
+│       │   ├── lib
+│       │   │   └── index.ts
+│       │   └── routes
+│       │       └── +page.svelte
+│       ├── static
+│       ├── svelte.config.js
+│       ├── tests
+│       ├── tsconfig.json
+│       └── vite.config.ts
+├── CONTEXT.MD
+├── docker
+│   ├── api.Dockerfile
+│   ├── postgres.Dockerfile
+│   └── web.Dockerfile
+├── docker-compose.dev.yml
+├── docker-compose.prod.yml
+├── docker-compose.yml
+├── folder_structure.txt
+├── package.json
+├── packages
+│   ├── database
+│   │   ├── package.json
+│   │   ├── prisma
+│   │   │   ├── migrations
+│   │   │   ├── schema.prisma
+│   │   │   └── seed.ts
+│   │   ├── src
+│   │   │   ├── client.ts
+│   │   │   └── index.ts
+│   │   └── tsconfig.json
+│   ├── eslint-config-custom
+│   │   ├── index.js
+│   │   └── package.json
+│   └── shared
+│       ├── package.json
+│       ├── src
+│       │   ├── index.ts
+│       │   ├── types
+│       │   │   ├── api.ts
+│       │   │   ├── auth.ts
+│       │   │   └── index.ts
+│       │   └── utils
+│       │       ├── constants.ts
+│       │       ├── helpers.ts
+│       │       └── index.ts
+│       └── tsconfig.json
+├── pnpm-lock.yaml
+├── pnpm-workspace.yaml
+├── README.md
+├── tsconfig
+│   ├── base.json
+│   ├── package.json
+│   └── svelte.json
+└── turbo.json

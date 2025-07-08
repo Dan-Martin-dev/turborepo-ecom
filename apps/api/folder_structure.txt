@@ -1,0 +1,16 @@
+.
+├── folder_structure.txt
+├── nest-cli.json
+├── package.json
+├── src
+│   ├── app.controller.js
+│   ├── app.controller.ts
+│   ├── app.module.js
+│   ├── app.module.ts
+│   ├── app.service.js
+│   ├── app.service.ts
+│   ├── main.js
+│   └── main.ts
+├── test
+├── tsconfig.build.json
+└── tsconfig.json

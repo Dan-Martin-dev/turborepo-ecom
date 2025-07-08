@@ -1,0 +1,29 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Dependencies
+/node_modules
+/.pnpm-store
+
+# Local Environment Variables
+.env
+.env.*.local
+!/.env.example
+
+# Turborepo
+.turbo
+/build
+/dist
+
+# IDE
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Misc
+/coverage
+/.next/
+/out/
