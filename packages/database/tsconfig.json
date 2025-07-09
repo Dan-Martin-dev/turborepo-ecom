@@ -1,1 +1,1 @@
-{ "extends": "tsconfig/base.json" }
+{ "extends": "@repo/tsconfig/base.json" }

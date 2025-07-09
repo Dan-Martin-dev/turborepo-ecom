@@ -14,8 +14,6 @@
 │   │   │   ├── common
 │   │   │   │   ├── decorators
 │   │   │   │   └── filters
-│   │   │   │       ├── all-exceptions.filter.js
-│   │   │   │       └── all-exceptions.filter.ts
 │   │   │   ├── main.js
 │   │   │   └── main.ts
 │   │   ├── test

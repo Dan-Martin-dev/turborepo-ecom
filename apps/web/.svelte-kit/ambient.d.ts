@@ -27,6 +27,7 @@
  */
 declare module '$env/static/private' {
 	export const npm_package_devDependencies__repo_tsconfig: string;
+	export const npm_package_devDependencies_vite_tsconfig_paths: string;
 	export const USER: string;
 	export const npm_config_user_agent: string;
 	export const npm_package_devDependencies_vite: string;
@@ -104,6 +105,7 @@ declare module '$env/static/public' {
 declare module '$env/dynamic/private' {
 	export const env: {
 		npm_package_devDependencies__repo_tsconfig: string;
+		npm_package_devDependencies_vite_tsconfig_paths: string;
 		USER: string;
 		npm_config_user_agent: string;
 		npm_package_devDependencies_vite: string;
